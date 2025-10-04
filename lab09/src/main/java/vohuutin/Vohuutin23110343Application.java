@@ -1,13 +1,13 @@
-package lamvandi;
+package vohuutin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Lamvandi23110191Application {
+public class Vohuutin23110343Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Lamvandi23110191Application.class, args);
+		SpringApplication.run(Vohuutin23110343Application.class, args);
 	}
 
 }
