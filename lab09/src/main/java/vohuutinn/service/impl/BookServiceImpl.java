@@ -1,12 +1,12 @@
-package lamvandi.service.impl;
-
-import lamvandi.entity.Book;
-import lamvandi.repository.BookRepository;
-import lamvandi.service.BookService;
+package vohuutinn.service.impl;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
+
+import vohuutinn.entity.Book;
+import vohuutinn.repository.BookRepository;
+import vohuutinn.service.BookService;
 
 import java.util.List;
 import java.util.Optional;

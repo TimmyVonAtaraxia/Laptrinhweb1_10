@@ -1,10 +1,11 @@
-package lamvandi.service;
+package vohuutinn.service;
 
-import lamvandi.entity.Book;
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.domain.Page;
+
+import vohuutinn.entity.Book;
 
 public interface BookService {
     List<Book> findAll();

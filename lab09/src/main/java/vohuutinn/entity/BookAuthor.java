@@ -1,4 +1,4 @@
-package lamvandi.entity;
+package vohuutinn.entity;
 
 public class BookAuthor {
 

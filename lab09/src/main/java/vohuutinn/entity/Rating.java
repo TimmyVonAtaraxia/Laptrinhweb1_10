@@ -1,9 +1,9 @@
-package lamvandi.entity;
+package vohuutinn.entity;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "rating_23110191")
+@Table(name = "rating")
 public class Rating {
 
     @EmbeddedId

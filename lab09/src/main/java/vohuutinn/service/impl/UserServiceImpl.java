@@ -1,4 +1,4 @@
-package lamvandi.service.impl;
+package vohuutinn.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -6,9 +6,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import lamvandi.entity.User;
-import lamvandi.repository.UserRepository;
-import lamvandi.service.UserService;
+import vohuutinn.entity.User;
+import vohuutinn.repository.UserRepository;
+import vohuutinn.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

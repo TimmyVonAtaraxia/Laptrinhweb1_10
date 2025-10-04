@@ -1,9 +1,10 @@
-package lamvandi.repository;
+package vohuutinn.repository;
 
 
-import lamvandi.entity.Rating;
-import lamvandi.entity.RatingId;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import vohuutinn.entity.Rating;
+import vohuutinn.entity.RatingId;
 
 import java.util.List;
 

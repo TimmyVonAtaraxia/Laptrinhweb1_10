@@ -1,7 +1,8 @@
-package lamvandi.service;
+package vohuutinn.service;
 
-import lamvandi.entity.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
+
+import vohuutinn.entity.User;
 
 public interface UserService extends UserDetailsService {
     User login(String email, String passwd);

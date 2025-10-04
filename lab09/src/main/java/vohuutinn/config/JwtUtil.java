@@ -1,4 +1,4 @@
-package lamvandi.config;
+package vohuutinn.config;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

@@ -1,8 +1,5 @@
-package lamvandi.controller;
+package vohuutinn.controller;
 
-import lamvandi.entity.User;
-import lamvandi.repository.UserRepository;
-import lamvandi.config.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -11,6 +8,10 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
+
+import vohuutinn.config.JwtUtil;
+import vohuutinn.entity.User;
+import vohuutinn.repository.UserRepository;
 
 import java.util.Date;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package lamvandi.entity;
+package vohuutinn.entity;
 
 import jakarta.persistence.*;
 import org.springframework.security.core.GrantedAuthority;
@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "users_23110191")
+@Table(name = "users")
 public class User implements UserDetails {
 
     @Id

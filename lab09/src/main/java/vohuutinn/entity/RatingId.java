@@ -1,4 +1,4 @@
-package lamvandi.entity;
+package vohuutinn.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

@@ -1,11 +1,4 @@
-package lamvandi.controller;
-
-import lamvandi.entity.Book;
-import lamvandi.entity.Rating;
-import lamvandi.entity.RatingId;
-import lamvandi.entity.User;
-import lamvandi.service.BookService;
-import lamvandi.service.RatingService;
+package vohuutinn.controller;
 
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
@@ -13,6 +6,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import jakarta.servlet.http.HttpSession;
+import vohuutinn.entity.Book;
+import vohuutinn.entity.Rating;
+import vohuutinn.entity.RatingId;
+import vohuutinn.entity.User;
+import vohuutinn.service.BookService;
+import vohuutinn.service.RatingService;
+
 import java.util.List;
 
 @Controller

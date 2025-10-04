@@ -1,7 +1,8 @@
-package lamvandi.service;
+package vohuutinn.service;
 
-import lamvandi.entity.Rating;
 import java.util.List;
+
+import vohuutinn.entity.Rating;
 
 public interface RatingService {
     List<Rating> findByBookId(int bookId);

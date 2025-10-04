@@ -1,4 +1,4 @@
-package lamvandi.controller;
+package vohuutinn.controller;
 
 public class UserController {
 

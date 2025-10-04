@@ -1,4 +1,4 @@
-package lamvandi.entity;
+package vohuutinn.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "books_23110191")
+@Table(name = "books")
 @Getter
 @Setter
 public class Book {

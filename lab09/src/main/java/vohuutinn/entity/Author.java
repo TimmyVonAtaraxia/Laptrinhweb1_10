@@ -1,4 +1,4 @@
-package lamvandi.entity;
+package vohuutinn.entity;
 
 
 import jakarta.persistence.*;
@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "author_23110191")
+@Table(name = "author")
 @Getter
 @Setter
 public class Author {

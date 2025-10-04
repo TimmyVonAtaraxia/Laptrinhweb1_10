@@ -1,10 +1,11 @@
-package lamvandi.controller;
+package vohuutinn.controller;
 
-import lamvandi.entity.Book;
-import lamvandi.service.BookService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+
+import vohuutinn.entity.Book;
+import vohuutinn.service.BookService;
 
 @Controller
 @RequestMapping("/admin/books")

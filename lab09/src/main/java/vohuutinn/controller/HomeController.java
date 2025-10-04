@@ -1,10 +1,11 @@
-package lamvandi.controller;
+package vohuutinn.controller;
 
-import lamvandi.entity.User;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import vohuutinn.entity.User;
 
 @Controller
 public class HomeController {
