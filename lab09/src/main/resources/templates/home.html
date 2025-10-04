@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+    <title>Trang chủ</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <h1>Xin chào <span th:text="${user.fullname}">Khách</span>!</h1>
+
+    <p>Email: <span th:text="${user.email}">guest@example.com</span></p>
+    <p>Role: <span th:text="${#lists.join(user.authorities, ', ')}">ROLE_USER</span></p>
+
+    <p>Nếu bạn login đúng, sẽ vào được đây. Token đang nằm trong localStorage.</p>
+</div>
+</body>
+</html>
